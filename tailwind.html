@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Три картки — Tailwind</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<link rel="stylesheet" href="./cards.css">
+</head>
+<body>
+  <section class="cards-section">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="feature-card feature-card--one bg-white shadow p-8">
+          <div class="feature-card__icon">🚀</div>
+          <h5 class="text-xl font-semibold mb-2">Швидкий старт</h5>
+          <p class="text-gray-500 mb-4">Підключіть бібліотеку через CDN і починайте верстати без жодного налаштування.</p>
+          <a href="#" class="feature-card__btn">Детальніше</a>
+        </div>
+        <div class="feature-card feature-card--two bg-white shadow p-8">
+          <div class="feature-card__icon">📱</div>
+          <h5 class="text-xl font-semibold mb-2">Адаптивність</h5>
+          <p class="text-gray-500 mb-4">Одна колонка на телефоні, дві на планшеті та три у ряд на десктопі.</p>
+          <a href="#" class="feature-card__btn">Детальніше</a>
+        </div>
+        <div class="feature-card feature-card--three bg-white shadow p-8">
+          <div class="feature-card__icon">🎨</div>
+          <h5 class="text-xl font-semibold mb-2">SCSS-стилі</h5>
+          <p class="text-gray-500 mb-4">Змінні, міксини та цикли SCSS компілюються просто в браузері.</p>
+          <a href="#" class="feature-card__btn">Детальніше</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

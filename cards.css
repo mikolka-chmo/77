@@ -1,0 +1,62 @@
+.cards-section {
+  padding: 4rem 0;
+  background: #f5f6fa;
+}
+
+.feature-card {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.feature-card__icon {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.feature-card__btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.feature-card__btn:hover {
+  filter: brightness(1.1);
+  color: #fff;
+}
+
+.feature-card--one {
+  border-top: 5px solid #6c5ce7;
+}
+.feature-card--two {
+  border-top: 5px solid #00b894;
+}
+.feature-card--three {
+  border-top: 5px solid #e17055;
+}
+
+.feature-card--one .feature-card__btn {
+  background: #6c5ce7;
+}
+.feature-card--two .feature-card__btn {
+  background: #00b894;
+}
+.feature-card--three .feature-card__btn {
+  background: #e17055;
+}

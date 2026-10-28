@@ -1,0 +1,39 @@
+.main_btn {
+    width: 400px;
+    height: 200px;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #6c5ce7;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  margin: 25px;
+  font-size: 80px;
+  font-weight: 700;
+  display: inline-flex;
+align-items: center;
+justify-content: center;
+
+}
+.main_btn:first-child{
+    background-color: aqua;
+}
+.main_btn:last-child{
+    background-color:brown;
+}
+.main_btn:hover {
+  filter: brightness(1.1);
+  color: #fff;
+  transform: translateY(-1px);
+
+}
+
+.main_ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: black;
+}
